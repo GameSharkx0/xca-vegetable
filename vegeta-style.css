@@ -1,0 +1,37 @@
+body{
+    font-family: 'Genos';
+    font-size: 20px;
+}
+.character-card{
+    width: 200px;
+    border: 2px black solid;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.character-card-desc-bg{
+    background-color: grey;
+    border-top: 1px black solid;
+}
+
+.character-card-desc{
+    text-align: left;
+    margin: 0px 10px;
+    padding-top: 15px;
+}
+
+h3{
+    margin: 10px;
+}
+button{
+    font-family: 'Genos';
+    background-color: darkblue;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px 85px 10px 10px;
+    color: white;
+    font-size: 24px;
+    margin: 7px;
+    margin-top: 15px;
+}
